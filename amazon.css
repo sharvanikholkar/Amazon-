@@ -1,0 +1,282 @@
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+.navbar{
+    height:90px;
+    width:auto;
+    border:2px solid green;
+    background-color: #151515;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+   
+
+}
+.logo img{
+    height: 90px;       
+    width: 100px;
+}
+.cardsection{
+    display:inline-flex;
+}
+.cardimage{
+    height:300px;
+    width:400px;
+    padding:2px;
+    background-repeat: no-repeat; 
+   
+}
+
+.shopimage{
+    height: 300px;
+    width:400px;
+    background-repeat: no-repeat;
+    background:white;
+    padding:2px;
+    object-fit: cover;
+ 
+ 
+}
+.cardsection2{
+    display:inline-flex;
+}
+.items{
+    height:500px;
+    width:400px;
+}
+.shop{
+    width:410px;
+    background:white;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid black;
+    
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:10px;
+}
+.items{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size: contain;
+   
+}
+
+.cardsection3{
+    display:inline-flex;
+}
+.item{
+    height:500px;
+    width:400px;
+}
+.Home{
+    width:410px;
+    background:white;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid black;
+    
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:10px;
+}
+.item{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size: contain;
+   
+}
+
+.cardsection4{
+    display:inline-flex;
+    position: absolute;
+    top: 194px;
+    left:1310px
+}
+.ideas{
+    height:500px;
+    width:380px;
+}
+.gifts{
+    width:189px;
+    height: auto;
+    background:white;
+    padding:5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 1px;
+    border: 2px solid black;
+    
+}
+
+.Fashion-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:0px;
+}
+.ideas{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size:auto;
+   
+}
+.ideas p{
+    margin: 0;
+}
+
+.cardsection5{
+    display:inline-flex;
+}
+.stuff{
+    height:500px;
+    width:400px;
+}
+.travel{
+    width:410px;
+    background:white;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 17px;
+    margin-left: 5px;
+    border: 2px solid black;
+    
+}
+
+.Fashion-container3{
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:5px;
+}
+.stuff{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size: contain;
+   
+}
+.cardsection6{
+    display:inline-flex;
+}
+.books{
+    height:500px;
+    width:400px;
+}
+.beautyy{
+    width:410px;
+    background:white;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 17px;
+    margin-left: 5px;
+    border: 2px solid black;
+    
+}
+
+.Fashion-container4{
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:5px;
+}
+.books{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size: contain;
+   
+}
+
+.cardsection7{
+    display:inline-flex;
+}
+.fit{
+    height:500px;
+    width:400px;
+}
+.gym{
+    width:410px;
+    background:white;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 17px;
+    margin-left: 5px;
+    border: 2px solid black;
+    
+}
+
+.Fashion-container5{
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+    gap:5px;
+}
+.fit{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    border: #151515;
+    background-position:center;
+    background-size: contain;
+   
+}
+.signup-section {
+    margin-top: 700px;
+  background-image: url("images/signup-bg.jpg"); /* horizontal background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom:0px;
+}
+
+.signup-box {
+  width: 350px;
+}
+.footer {
+  background-color: #222;   /* dark background */
+  color: #191313;              /* white text */
+  padding: 10px 0;          /* small height */
+  font-size: 14px;          /* compact text */
+}
+.footer p {
+  margin: 0;   
+  color: #f8f9fa;       /* remove extra spacing */
+}
+
+
+
+
+
